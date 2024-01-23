@@ -164,7 +164,7 @@
 修改后，再次输入指令`timedatectl status`，可见NTP service已经修改为inactive，RTC in local TZ已经修改为yes  
 
 ## <6>Linux系统下Clash For Windows的配置  
-首先下载Clash For Windows对应的linux版本，这里笔者放在仓库里面，后缀为.tar.gz，我们将该压缩包导入Ubuntu，在终端中依次输入以下代码  
+首先下载Clash For Windows对应的linux版本，这里笔者放在仓库里面(不放了，不想搞git LFS)，后缀为.tar.gz，我们将该压缩包导入Ubuntu，在终端中依次输入以下代码  
 
     # 解压
     tar -zxvf Clash.for.Windows-x64-linux.tar.gz
